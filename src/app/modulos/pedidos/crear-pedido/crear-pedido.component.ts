@@ -32,7 +32,7 @@ export class CrearPedidoComponent implements OnInit {
     let total = parseInt(this.fgValidador.controls["total"].value);
     let p = new ModeloPedido();
     p.cantidad = cantidad;
-    p.fechaPedido= new Date(fechaPedido)o;
+    p.fechaPedido= new Date(fechaPedido);
     p.fechaEntrega = new Date(fechaEntrega);
     p.formasPago= formasPago;
     p.estado= estado;
